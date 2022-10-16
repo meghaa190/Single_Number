@@ -18,14 +18,16 @@ public:
                 //flag=0;
                 //break;
             }
+            else
+            {
+                ans=nums[i];
+                break;
+            }
            
                 //ans= nums[i];
             
         }
-        if(flag==0)
-        {
-            ans= nums[i+1];
-        }
+        
        
         return ans;
     }
